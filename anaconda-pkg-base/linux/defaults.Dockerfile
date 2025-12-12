@@ -4,7 +4,7 @@ FROM centos:${BASEVERSION} AS base-amd64
 
 FROM centos:${BASEVERSION} AS base-ppc64le
 
-FROM amazonlinux:2 AS base-arm64
+FROM amazonlinux:2023@sha256:383f900729263a3c63b8e7e3410f94282f02e246fa68bba066a61f82bece8330 AS base-arm64
 
 FROM clefos:${BASEVERSION} AS base-s390x
 
