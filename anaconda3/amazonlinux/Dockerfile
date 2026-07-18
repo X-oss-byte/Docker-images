@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazonlinux:2@sha256:30508da01fdcf18d0bfac10a59d86f9e46954233746ee7360d26d77199e773d1
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
